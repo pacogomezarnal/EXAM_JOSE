@@ -1,4 +1,4 @@
-package Modelo;
+package Model;
 
 //Clase que almacenará todos los datos de un cadete
 public class Cadete {
@@ -28,6 +28,11 @@ public class Cadete {
 		this.nacionalidad=nacionalidad;
 		this.equipo=equipo;
 		
+	}
+	
+	@Override
+	public String toString() {
+		return nombre;
 	}
 
 	public int getId() {
